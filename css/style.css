@@ -1,0 +1,127 @@
+/* general styles */
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+nav {
+    background: black;
+}
+
+nav a {
+    color: red;
+}
+
+nav a:hover {
+    background-color: black;
+    color: yellow;
+}
+
+.nav .link:hover {
+    background-color: black;
+    color: yellow;
+}
+
+nav #collapse {
+    background-color: red;
+}
+
+#btn-continue {
+    background-color: black;
+    color: red;
+}
+
+#btn-continue:hover {
+    color: yellow;
+}
+
+/* padded section */
+.pad-section {
+  padding: 50px 0;
+}
+.pad-section img {
+  width: 100%;
+}
+ 
+/* vertical-centered text */
+.text-vcenter {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.text-vcenter h1 {
+  font-size: 4.5em;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+ 
+
+#home {
+  background: url('../images/pexels-photo.jpg') no-repeat center center fixed;
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: yellow;
+}
+ 
+#about {
+    background-color: black;
+    color: grey;
+}
+
+#about h2 {
+    color: yellow;
+}
+ 
+#services, #footer {
+  background-color: black;
+  color: grey;
+}
+#services h4, #footer h4 {
+    color: yellow;
+}
+
+#services h2, #footer h2 {
+    color: red;
+}
+
+
+#carousel {
+    background-color: black;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+
+#row2 {
+    padding-top: 50px;
+}
+
+#information {
+  background: url(../images/pexels-photo-63695.jpeg) no-repeat center center fixed;
+  display: table;
+  height: 800px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#information .panel {
+  opacity: 0.85;
+}
+
+#information h2 {
+    color: red;
+}
+
+footer {
+  padding: 0;
+}
